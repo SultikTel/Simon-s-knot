@@ -1,3 +1,4 @@
+using Simon.Audio;
 using UnityEngine;
 
 namespace Simon.Gameplay.Player
@@ -36,6 +37,11 @@ namespace Simon.Gameplay.Player
                 else
                     _animator.Play("RunDown");
             }
+        }
+
+        private void PlayStepSound()
+        {
+            AudioController.Instance.PlaySound(SoundName.Step);
         }
     }
 }
