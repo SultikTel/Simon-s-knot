@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 20bcd6074f1335b43a0d5a4b776327c0
+guid: 5619f5f41929cff4cae19235a84020cf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 84x84__0
+      name: SimonMove_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ea95f48035ca514e89afa12c9f35191
-      internalID: 188799261
+      spriteID: 6482ad9638fe3f04ba048cc58f2d09a2
+      internalID: 1943155298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84x84__1
+      name: SimonMove_1
       rect:
         serializedVersion: 2
         x: 84
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 366176acf3c4a9644908e007ba468eda
-      internalID: -816771849
+      spriteID: 50c4c1edbf84fe245abeb47999cd887e
+      internalID: 192336242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84x84__2
+      name: SimonMove_2
       rect:
         serializedVersion: 2
         x: 168
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8255d31a17139b428b9fd12c3c0df34
-      internalID: 1934779214
+      spriteID: edf2d6147f0b7734eb04f78ea0b2ae45
+      internalID: 25112685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84x84__3
+      name: SimonMove_3
       rect:
         serializedVersion: 2
         x: 252
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47231835f6cd00044b0a105b055cecf6
-      internalID: 1236970031
+      spriteID: a58f1527e16170541823ca06292c6b98
+      internalID: 1473055211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84x84__4
+      name: SimonMove_4
       rect:
         serializedVersion: 2
         x: 0
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8df40e98f3e6b54791ac029d94a9c60
-      internalID: -1926286251
+      spriteID: 44384f932b427174fa5384161ac60535
+      internalID: 1738579724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84x84__5
+      name: SimonMove_5
       rect:
         serializedVersion: 2
         x: 84
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2625c785cd68f4947aee918916ab1866
-      internalID: -1608463788
+      spriteID: babf9f828d42d2f439331eb56adf156f
+      internalID: -2009862626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84x84__6
+      name: SimonMove_6
       rect:
         serializedVersion: 2
         x: 168
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99e4ab117ebf94048a5da5638271e551
-      internalID: -2146859198
+      spriteID: f98b0bbce3d9e794ca8a286196e5f249
+      internalID: -894399416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84x84__7
+      name: SimonMove_7
       rect:
         serializedVersion: 2
         x: 252
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed84a8b00ec0862409e5e8e1c8ca5dc5
-      internalID: -273785750
+      spriteID: 7a4a64dd0b7f75745882735299601438
+      internalID: -3200805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84x84__8
+      name: SimonMove_8
       rect:
         serializedVersion: 2
         x: 0
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 272743263fa72854fbe46044e0c86e34
-      internalID: -2016740324
+      spriteID: 97f85698b85909042af190ef09a4a130
+      internalID: -380647948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84x84__9
+      name: SimonMove_9
       rect:
         serializedVersion: 2
         x: 84
@@ -300,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55656ed627b9f464c8ba9b453a87c33c
-      internalID: 1280953836
+      spriteID: 21bc852d2be18784ebe39f77fa9fc3d3
+      internalID: -1619319647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84x84__10
+      name: SimonMove_10
       rect:
         serializedVersion: 2
         x: 168
@@ -321,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dc32b3e0bf7df743bc3b32e020fbd7a
-      internalID: 1444650817
+      spriteID: e37de3756786e674ba2f9922ac89caa4
+      internalID: 2040137269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84x84__11
+      name: SimonMove_11
       rect:
         serializedVersion: 2
         x: 252
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4507c9250692ac4fb49fe103719374e
-      internalID: -197567922
+      spriteID: cc3deb8d8c1d52148964c5043dc68d43
+      internalID: -2089984833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84x84__12
+      name: SimonMove_12
       rect:
         serializedVersion: 2
         x: 0
@@ -363,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9856efbbfa8402a41bca91ef3b59b773
-      internalID: 56197748
+      spriteID: d3860f00dd44c494c977c4ac7da9aae6
+      internalID: 1659859231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84x84__13
+      name: SimonMove_13
       rect:
         serializedVersion: 2
         x: 84
@@ -384,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcd80be8601aa294b8dcfbb745e9ba27
-      internalID: -744665194
+      spriteID: 11ce1c7c7062ade458861b17ab3e9398
+      internalID: -1257506543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84x84__14
+      name: SimonMove_14
       rect:
         serializedVersion: 2
         x: 168
@@ -405,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0f9f6cff2f10cd40b5b5bd4b6039d04
-      internalID: -590940873
+      spriteID: eec8aa48c9997a74fad1a151d2dbcd22
+      internalID: 2018843236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 84x84__15
+      name: SimonMove_15
       rect:
         serializedVersion: 2
         x: 252
@@ -426,8 +426,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a2fbc7270c4aa04a91d9672f2434a52
-      internalID: -1141976346
+      spriteID: 57a1ec7d5bdd36d439fe850e53e48ae1
+      internalID: -1467925618
       vertices: []
       indices: 
       edges: []
@@ -443,22 +443,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      84x84__0: 188799261
-      84x84__1: -816771849
-      84x84__10: 1444650817
-      84x84__11: -197567922
-      84x84__12: 56197748
-      84x84__13: -744665194
-      84x84__14: -590940873
-      84x84__15: -1141976346
-      84x84__2: 1934779214
-      84x84__3: 1236970031
-      84x84__4: -1926286251
-      84x84__5: -1608463788
-      84x84__6: -2146859198
-      84x84__7: -273785750
-      84x84__8: -2016740324
-      84x84__9: 1280953836
+      SimonMove_0: 1943155298
+      SimonMove_1: 192336242
+      SimonMove_10: 2040137269
+      SimonMove_11: -2089984833
+      SimonMove_12: 1659859231
+      SimonMove_13: -1257506543
+      SimonMove_14: 2018843236
+      SimonMove_15: -1467925618
+      SimonMove_2: 25112685
+      SimonMove_3: 1473055211
+      SimonMove_4: 1738579724
+      SimonMove_5: -2009862626
+      SimonMove_6: -894399416
+      SimonMove_7: -3200805
+      SimonMove_8: -380647948
+      SimonMove_9: -1619319647
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
