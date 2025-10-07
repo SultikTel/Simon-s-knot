@@ -272,6 +272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mainHero: {fileID: 3181348134220121055, guid: 2d3bfa10c1952224da08c056286e538f, type: 3}
   _levelController: {fileID: 1212569322}
+  _configHolder: {fileID: 1869520630}
 --- !u!4 &117821547
 Transform:
   m_ObjectHideFlags: 0
@@ -286,6 +287,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1212569323}
+  - {fileID: 1869520629}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &342387091
@@ -1071,6 +1073,7 @@ MonoBehaviour:
     _keys: 01000000
     _values:
     - {fileID: 6381054773756502308, guid: 1c56aa36b49d8f441a99b1205265680d, type: 3}
+  _mapsContainer: {fileID: 0}
 --- !u!4 &1212569323
 Transform:
   m_ObjectHideFlags: 0
@@ -1615,6 +1618,51 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1869520628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1869520629}
+  - component: {fileID: 1869520630}
+  m_Layer: 0
+  m_Name: ConfigHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1869520629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869520628}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 117821547}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1869520630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869520628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f908abc4181e2b745956c416817b0e41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialoguesConfig: {fileID: 11400000, guid: 418c32d524c7b3047bd7ff04fb354867, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

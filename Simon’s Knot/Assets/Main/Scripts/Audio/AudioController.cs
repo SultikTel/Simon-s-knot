@@ -18,6 +18,7 @@ namespace Simon.Audio
             else
             {
                 Destroy(gameObject);
+                return;
             }
             _oneShotAudioSource = gameObject.AddComponent<AudioSource>();
         }

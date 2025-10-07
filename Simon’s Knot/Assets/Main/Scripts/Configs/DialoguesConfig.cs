@@ -21,12 +21,12 @@ namespace Simon.Configs
     [Serializable]
     public class DialogueEntryData
     {
-        [SerializeField] private Character _character;
-        public Character Character => _character;
+        [SerializeField] private InteractableEnum _character;
+        public InteractableEnum Character => _character;
         [SerializeField] private string _line;
         public string Line => _line;
     }
-    public enum Character
+    public enum InteractableEnum
     {
         None,
         Simon,

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8019418705973868732}
   - component: {fileID: 6165004863469581495}
   - component: {fileID: 2444104800445999937}
-  - component: {fileID: 2427579293141853325}
+  - component: {fileID: 2836938391985924395}
   m_Layer: 5
   m_Name: TextBox
   m_TagString: Untagged
@@ -104,7 +104,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &2427579293141853325
+--- !u!114 &2836938391985924395
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,10 +113,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6259200988815339938}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63d3d9549fffc7f4895fc5ea6896d41d, type: 3}
+  m_Script: {fileID: 11500000, guid: 002ebb36c2cc909499f500fdf96f14ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _text: {fileID: 0}
+  _bg: {fileID: 0}
+  _mainText: {fileID: 8887087323569535553}
 --- !u!1 &7461578326463492670
 GameObject:
   m_ObjectHideFlags: 0
