@@ -21,15 +21,18 @@ namespace Simon.Configs
     [Serializable]
     public class DialogueEntryData
     {
-        [SerializeField] private InteractableEnum _character;
-        public InteractableEnum Character => _character;
+        [SerializeField] private DialogueCharacterConfig _character;
+        public DialogueCharacterConfig Character => _character;
         [SerializeField] private string _line;
         public string Line => _line;
+        [SerializeField] private Side _side;
+        public Side Side => _side;
     }
-    public enum InteractableEnum
+
+    public enum Side
     {
         None,
-        Simon,
-        Mother
+        Left,
+        Right,
     }
 }

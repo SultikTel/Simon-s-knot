@@ -41,7 +41,9 @@ MonoBehaviour:
     - MotherAndSimonFirstDay
     _values:
     - _dialogueEntries:
-      - _character: 1
+      - _character: {fileID: 11400000, guid: ac338a195bdcbca43bc2d5d34b1ad9da, type: 2}
         _line: Hey
-      - _character: 2
+        _side: 1
+      - _character: {fileID: 11400000, guid: a29212f9ad569a84da4c0a342aaaf1c4, type: 2}
         _line: Hi simon
+        _side: 2
