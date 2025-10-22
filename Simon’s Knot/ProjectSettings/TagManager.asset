@@ -47,6 +47,9 @@ TagManager:
   - name: Objects
     uniqueID: 1509398163
     locked: 0
+  - name: GameCanvas
+    uniqueID: 3755393115
+    locked: 0
   - name: TextBox
     uniqueID: 2302427597
     locked: 0

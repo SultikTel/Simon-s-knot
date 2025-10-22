@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Simon.Gameplay
@@ -6,6 +7,8 @@ namespace Simon.Gameplay
     {
         [SerializeField] private GameObject _callOut;
         private bool _canInteractNow;
+
+        public Action OnInteracted;
 
         private void Start()
         {
@@ -17,6 +20,7 @@ namespace Simon.Gameplay
             if(Input.GetKeyDown(KeyCode.E) && _canInteractNow)
             {
                 Debug.Log("interacted");
+                OnInteracted?.Invoke();
             }
         }
 

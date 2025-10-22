@@ -1,4 +1,5 @@
 using Simon.Configs;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Simon.Core
@@ -12,6 +13,7 @@ namespace Simon.Core
         [SerializeField] private ConfigHolder _configHolder;
         [SerializeField] private DialogueController _dialogueController;
         public DialogueController DialogueController => _dialogueController;
+        public Progress CurrentProgress { get; private set; } = new();
         private void Awake()
         {
             if (Instance == null)
@@ -24,17 +26,31 @@ namespace Simon.Core
                 return;
             }
             _dialogueController.Init(_configHolder.DialoguesConfig.AllDialogues);
-            _dialogueController.ShowDialogue("MotherAndSimonFirstDay");
         }
 
         public void LoadDay(int day)
         {
             if (day == 1)
             {
-                Instantiate(_mainHero);
-                _levelController.CreatLevel(Locations.SimonRoom);
-
+                _levelController.CreatLevel(LevelEnum.FirstLevel, _mainHero);
             }
         }
+    }
+
+    public class Progress
+    {
+        public HashSet<GameEvent> HappenedGameEvents { get; private set; } = new();
+        public void EventHappened(GameEvent happenedEvent)
+        {
+            HappenedGameEvents.Add(happenedEvent);
+        }
+    }
+
+    public enum GameEvent
+    {
+        None,
+        InteractedWithBedOnDay1,
+        InteractedWithBedOnDay1Again,
+        TalkedWithMomOnDay1
     }
 }

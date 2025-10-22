@@ -1,22 +1,23 @@
 using RotaryHeart.Lib.SerializableDictionary;
+using Simon.Gameplay;
 using UnityEngine;
 
 namespace Simon.Core
 {
     public class LevelController : MonoBehaviour
     {
-        [SerializeField] private SerializableDictionaryBase<Locations, Location> _locations;
+        [SerializeField] private SerializableDictionaryBase<LevelEnum, Level> _locations;
         [SerializeField] private Transform _mapsContainer;
 
-        public void CreatLevel(Locations location)
+        public void CreatLevel(LevelEnum location, Transform mainHero)
         {
-            Instantiate(_locations[location], _mapsContainer);
+            Instantiate(_locations[location], _mapsContainer).Init(mainHero);
         }
     }
 
-    public enum Locations
+    public enum LevelEnum
     {
         None,
-        SimonRoom
+        FirstLevel
     }
 }
