@@ -40,10 +40,7 @@ namespace Simon.Core
     public class Progress
     {
         public HashSet<GameEvent> HappenedGameEvents { get; private set; } = new();
-        public void EventHappened(GameEvent happenedEvent)
-        {
-            HappenedGameEvents.Add(happenedEvent);
-        }
+
     }
 
     public enum GameEvent
