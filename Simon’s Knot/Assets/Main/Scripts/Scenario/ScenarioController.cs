@@ -19,10 +19,4 @@ namespace Simon.Scenario
             }
         }
     }
-
-    public enum Events
-    {
-        None,
-        TalkedToMom
-    }
 }
