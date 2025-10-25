@@ -65,7 +65,7 @@ namespace Simon.UI
             float input = Input.GetAxisRaw("Horizontal");
             Vector2 pos = _currentPlayerIndex.anchoredPosition;
             pos.x += input * _playerSpeed * Time.deltaTime;
-            =
+
             Vector2 parentSize = _parent.rect.size;
             Vector2 playerSize = _currentPlayerIndex.rect.size;
 
