@@ -12,7 +12,7 @@ namespace Simon.Gameplay
 
         public virtual void Init(Transform mainHero)
         {
-            _mainHero = Instantiate(mainHero,transform);
+            _mainHero = Instantiate(mainHero, transform);
         }
     }
 }

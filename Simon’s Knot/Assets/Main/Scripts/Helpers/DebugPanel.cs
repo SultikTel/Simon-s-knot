@@ -42,7 +42,7 @@ namespace Simon.Helpers
         private void OnEnable()
         {
             ShowOrHide(true);
-            _showHideButton.onClick.AddListener(()=>ShowOrHide(!_scrolView.activeSelf));
+            _showHideButton.onClick.AddListener(() => ShowOrHide(!_scrolView.activeSelf));
         }
         private void OnDisable()
         {

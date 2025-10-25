@@ -12,7 +12,7 @@ namespace Simon.Helpers
         public void Init(string actionName, Action action)
         {
             _actionName.text = actionName;
-            _button.onClick.AddListener(()=> { action?.Invoke(); });
+            _button.onClick.AddListener(() => { action?.Invoke(); });
         }
     }
 }

@@ -14,7 +14,7 @@ namespace Simon.Gameplay.Player
 
         private void LateUpdate()
         {
-            _camera.position = new Vector3(transform.position.x,transform.position.y+ _offset, _camera.position.z);
+            _camera.position = new Vector3(transform.position.x, transform.position.y + _offset, _camera.position.z);
         }
     }
 }

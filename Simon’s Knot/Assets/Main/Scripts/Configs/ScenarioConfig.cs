@@ -12,6 +12,6 @@ namespace Simon.Configs
     [Serializable]
     public class DayConfig
     {
-        
+
     }
 }

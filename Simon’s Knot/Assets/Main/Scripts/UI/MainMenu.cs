@@ -11,7 +11,8 @@ namespace Simon.UI
 
         private void OnEnable()
         {
-            _newGameButton.OnClicked.AddListener(() => {
+            _newGameButton.OnClicked.AddListener(() =>
+            {
                 GameController.Instance.LoadDay(1);
                 gameObject.SetActive(false);
             });

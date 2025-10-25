@@ -17,7 +17,7 @@ namespace Simon.Gameplay
 
         private void Update()
         {
-            if(Input.GetKeyDown(KeyCode.E) && _canInteractNow)
+            if (Input.GetKeyDown(KeyCode.E) && _canInteractNow)
             {
                 Debug.Log("interacted");
                 OnInteracted?.Invoke();

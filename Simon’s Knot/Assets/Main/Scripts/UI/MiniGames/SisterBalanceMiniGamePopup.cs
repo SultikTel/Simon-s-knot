@@ -62,11 +62,10 @@ namespace Simon.UI
             if (_currentPlayerIndex == null)
                 return;
 
-            float input = Input.GetAxisRaw("Horizontal"); 
+            float input = Input.GetAxisRaw("Horizontal");
             Vector2 pos = _currentPlayerIndex.anchoredPosition;
             pos.x += input * _playerSpeed * Time.deltaTime;
-
-            // ограничение по краям
+            =
             Vector2 parentSize = _parent.rect.size;
             Vector2 playerSize = _currentPlayerIndex.rect.size;
 

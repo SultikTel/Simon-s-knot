@@ -40,7 +40,7 @@ namespace Simon.Core
             foreach (var entry in dialogue.DialogueEntries)
             {
                 _current.Init(entry);
-                yield return new WaitForSeconds(4f); 
+                yield return new WaitForSeconds(4f);
             }
 
             Destroy(_current.gameObject);

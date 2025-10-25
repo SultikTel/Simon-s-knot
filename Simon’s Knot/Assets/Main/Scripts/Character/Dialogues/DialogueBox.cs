@@ -17,7 +17,8 @@ namespace Simon.Gameplay
         {
             foreach (KeyValuePair<Side, Image> item in _avatars)
             {
-                if (item.Key == dialogueEntryData.Side) {
+                if (item.Key == dialogueEntryData.Side)
+                {
                     item.Value.enabled = true;
                     item.Value.sprite = dialogueEntryData.Character.Sprite;
                 }
